@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[italian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+% personal data
+\firstname{Rafik}
+\familyname{\\ \\Avtoyan}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{87 Raffi, apt. 27}{0064 Erevan, Armenia}    % optional, remove the line if not wanted
+\mobile{+374 55 650307}                    % optional, remove the line if not wanted
+\phone{+374 10 733536}                      % optional, remove the line if not wanted
+%\fax{312 996 1491}                          % optional, remove the line if not wanted
+\email{rafikavtoyan@gmail.com}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[84pt]{rafik_avtoyan.jpg}          % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\quote{"Success is the ability to go from failure to failure without losing your enthusiasm." -- Winston Churchill}                 % optional, remove the line if not wanted
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace{-10mm}
+
+%Section
+\section{Info}
+\cvcomputer{Born}{\small January 27th, 1991 at Erevan (Armenia)\normalsize}{Citizenship}{\small Armenian\normalsize}
+\cvcomputer{Additional Address}{S.Taronc 24, apt. 25, 0055 Erevan, Armenia}{Driving License}{\small BC\normalsize}
+\cvcomputer{LinkedIn}{\small \url{http://www.linkedin.com/in/rafikavtoyan/}\normalsize}{Skype}{\small rafikavtoyan}
+
+\vspace{-4mm}
+
+%Section
+\section{Desidered Employment and Current Skills}
+\cvline{}{\Large Software Engineer}
+\cvline{}{\small Practice of work with Python, PHP and Perl (as a base languages), django framework. PostgreSQL and MySQL relational databases with a practice of work with large databases. JavaScript, frameworks,  libraries and plugins such as jQuery, basic angularJS, flotJS, qtip etc. Standards-Compliant HTML and CSS/LESS. Experience with Bootstrap and Foundation frameworks. Experience of working with some open source projects like WordPress, Joomla, Django. Experience of working with SCMs (Subversion, Git and basic Perforce). Advanced Linux user, with administration skills required for development.}
+\vspace{-4mm}
+
+%Section
+\section{Computer Skills}
+\cvline{Languages}{\small PHP, Python, Perl, JavaScript, SQL, HTML5, CSS3, LESS, BASH, \LaTeX}
+\cvcomputer{Platforms}{Unix, Linux, Windows, Apache, Nginx}  {DB}{MySQL, PostgreSQL}
+\cvline{Tools}{Git, SVN, AJAX, jQuery, JSON}
+
+\vspace{-3mm}
+
+%Section
+\section{Experience}
+\vspace{-2mm}
+\subsection{Working}
+\cventry{2014}{Software Engineer}{\href{http://ggg.instigatedesign.com/}{Instigate CJSC}}{Erevan}{Armenia}{Development of web applications, including the modification of DB schema.}
+\subsection{Intern}
+\cventry{2011 summer}{Credit Specialist}{\href{http://www.acba.am/}{ACBA-CREDIT AGRICOLE BANK}}{Erevan}{Armenia}{Intern of credit department}
+
+%Section
+\section{Education}
+\cventry{2014 february-september}{Diploma of Website Development}{\href{http://ggg.instigatedesign.com/}{Instigate Training Center}}{Erevan}{Armenia}{}
+\cventry{2007-2011}{Bachelor's Degree in Marketing}{\href{http://www.ufar.am}{French university in Armenia (UFAR)}}{Erevan}{Armenia}{}
+\cventry{1997-2007}{Secondary school Diplom}{\href{http://school181.schools.am/msnaxmber/rus-zekucum.html}{181 school}}{Erevan}{Armenia}{}
+
+\vspace{-3mm}
+
+%Section
+\section{Languages}
+\hspace{25mm}\small  Self-assessment European level \href{http://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages}{CEFR} (C2 maximum evaluation)\normalsize
+\vspace{5mm}
+
+\begin{tabular}{p{67mm} p{40mm} p{40mm} p{20mm}}
+& \textbf{Comprehension} & \textbf{Speaking} & \textbf{Writing} \\
+\end{tabular}
+
+\begin{tabular}{p{67mm} p{20mm} p{20mm} p{20mm} p{20mm} p{20mm}}
+& Listening & Reading & Interaction & Production & \\
+\end{tabular}
+
+\vspace{3mm}
+\cvlanguage{Armenian}{Mother Tongue}{
+	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+		C2 & C2 & C2 & C2 & C2
+	\end{tabular}}
+\cvlanguage{Russian}{Advanced}{
+	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+		C1 & C1 & B2 & B2 & B1
+	\end{tabular}}
+\cvlanguage{English}{Intermediate}{
+	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+		B1 & B1 & B1 & B1 & B1
+	\end{tabular}}
+\cvlanguage{French}{Intermediate}{
+	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+		A2 & A2 & A2 & A2 & A2
+	\end{tabular}}
+}
+
+%Section
+\section{Interests and Hobbies}
+\cvline{}{\small I love any sport but I prefer football and volleyball. I enjoy reading technical and classic literature books. I love fishing and snowboarding even if I don't practice really often that activities unfortunately.}
+
+\vspace{-3mm}
+
+%Section
+\section{Extra}
+\small
+\cvline{2011-2013}{\large Service in Army}
+\cvline{}{\small As a Staff Sergeant}
+
+
+\end{document}
